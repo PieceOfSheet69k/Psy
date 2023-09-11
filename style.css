@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background:whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 800px;
+    margin: 5%;
+    background: white;
+    padding: 16px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 20px;
+}
+
+.container h1{
+    font-weight: bold;
+    padding: 0 35%;
+}
+
+.container input[type='text'], input[type='date'], input[type='email'], input[type='submit'],input[type='reset']{
+    width: 100%;
+    display:inline-block;
+    padding: 15px;
+    margin:10px 0;
+    background: gainsboro;
+    border: none;
+}
+
+.container input[type='reset']{
+    background: red;
+    color: white;
+    font-weight: bolder;
+}
+
+.container [type='submit']{
+    background: greenyellow;
+    color: black;
+    font-weight: bolder;
+}
+
+.container .error-msg{
+   display: block;
+   border-radius: 10px;
+   margin-left: 37%; 
+   width: 22%;
+   padding:10px 5px;
+   background-color: crimson;
+   font-size: 20px;
+   color: white;
+}
+
+.container h2{
+    padding: 15px 160px;
+}
+
+.container .logout{
+    padding: 5% 43%;
+
+}
